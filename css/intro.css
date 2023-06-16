@@ -1,0 +1,135 @@
+
+/* BODY */
+
+body {
+    background-image: url("../images/third_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    border-bottom: 2px solid #F6F6F7;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+/* LOGO N NAV */
+
+.nav {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto 0;
+
+}
+
+/* .logo-container {
+    width: auto;
+    height: auto;
+    
+
+} */
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.nav-list {
+    width: 50%;
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    border-radius: 5px;
+    padding: 0;
+}
+.li {
+    width: 110px;
+    list-style-type: none;
+    padding: 16px 16px;
+    transition: background 2ms ease-in-out 1ms;
+}
+ul .li:not(:last-child) {
+    border-right: 1px solid #F6F6F7;
+
+}
+
+.li:hover {
+   background-color: rgba(14, 11, 219, 0.2); 
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* introduction n hobbies*/
+.introduction {
+    background-color: rgba(14, 14, 14, 0.5);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin: 120px auto;
+}
+.profile {
+    width: 40%;
+    margin: 80px auto;
+}
+
+#profile-pic {
+    width: 100%;
+    height: 100%;
+    /* margin: 80px auto; */
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    margin: 80px auto;
+}
+/* .Hobbies, .about-me {
+    width: 100%;
+} */
+.Hobbies, .about-me, .about-me > .about {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-self: center;
+    width: 100%;
+
+}
+.list > li {
+    margin: 0 20px 20px;
+    padding-top: 16px;
+   
+}
+/* footer */
+.footer {
+    width: 100%;
+    height: 30px;
+    margin-top: 100px;
+    padding-top: 30px;
+    background-color: rgba(14, 14, 14, 0.56);
+}
+
+.footer > p {
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #dcdcdd;
+    margin: 0;
+    text-align: center;
+}
