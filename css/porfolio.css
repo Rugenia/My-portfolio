@@ -68,7 +68,7 @@ li {
     width: 110px;
     list-style-type: none;
     padding: 16px 16px;
-    transition: background 2ms ease-in-out 1ms;
+    transition: background-color 300ms ease-in-out 40ms;
 }
 
 ul li:not(:last-child) {
@@ -100,3 +100,17 @@ a {
     color: #dcdcdd;
     margin: 0;
 }
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #F6F6F7;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #F6F6F7;  /* creates padding around scroll thumb */
+  }

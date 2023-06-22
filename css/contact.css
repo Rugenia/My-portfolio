@@ -1,7 +1,7 @@
 /* BODY */
 
 body {
-    background-image: url("../images/fourth_bg.jpg");
+    background-image: url("../images/second_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -60,10 +60,11 @@ a {
 }
 
 
-/* experience*/
-.experience {
+/* contact and socials*/
+.contacts {
     background-color: rgba(14, 14, 14, 0.5);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;    
     width: 80%;
     height: auto;
@@ -71,44 +72,87 @@ a {
     overflow: hidden;
     
     
+    
 }
 
 .description {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 40%;
-    
-}
-
-.about-exp {
-    width: 450px;
-    text-align: justify;
-    text-justify: inter-word;
-    margin-left: 70px;
-    margin-bottom: 20px;
-   
-    
-}
-
-.exp-img {
-    width: 50%;
-    height: auto;
-    position: relative;
-    right: 0;
-    bottom: 0;
-    background-image: url("../images/ninth_big_item.jpg");
-    background-size: cover;
-    filter: contrast(110%);
-   
-}
-
-/* .image {
-    width: auto;
-    height: auto;
-    object-fit: contain;
+    width: 80%;
     margin: 0;
-} */
+    
+    
+}
+
+.about-social {
+    width: 100%;
+    text-align: left;
+    text-justify: inter-word;
+    margin-left: 100px;
+    margin-bottom: 20px;    
+}
+
+.contact {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+span {
+    font-weight: 600;
+
+}
+
+.main-socials  {
+    text-align: right;
+    width: 80%;
+    margin-left: 0;
+    margin-right: 50px;
+    margin: 0 auto 20px;
+}
+
+/* socials styling and icons */
+.main-socials > h1 {
+    text-align: right;
+    margin-bottom: 14px;
+}
+
+.socials {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+.socials > li {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 4px 3px 2px;
+    border-radius: 2px;
+    text-align: center;
+    transition: all 0.7s ease-in-out 0.3s;
+}
+.socials > li:hover  {
+    background-color:  rgba(149, 200, 211, 1);
+       
+}
+.socials > li > a > i{
+    text-align: center;
+    padding-top: 8px;
+    width: 2.27rem;
+    height: 2rem;
+    transition: all 0.7s ease-in-out 0.3s; 
+
+}
+
+i:hover {
+    color: rgba(52, 117, 119, 1);
+}
 
 
 /* footer */
