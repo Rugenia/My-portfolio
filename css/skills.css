@@ -127,10 +127,9 @@ a {
     width: 600px;
     margin: 30px auto 0;
 }
- span {
-    color: rgb(50, 125, 128);
+span {
     font-weight: bolder;
-    font-size: 17px;
+    color: rgba(52, 117, 119, 1);
 }
 
 /* 
