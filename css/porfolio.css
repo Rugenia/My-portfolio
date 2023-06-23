@@ -114,8 +114,8 @@ a {
     }
     
     
-    
-    li:active {
+
+    li:hover, li:active {
        background-color: rgba(14, 11, 219, 0.2); 
     }
     a {
