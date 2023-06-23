@@ -89,7 +89,7 @@ a {
 
 @media (max-width: 480px) {
     .nav {
-        width: 100%;
+        width: 90%;
         margin: 50px auto 0;
         
     }
@@ -102,10 +102,10 @@ a {
         
     }
      li {
-        width: 6.875em;
+        width: 6.875rem;
         list-style-type: none;
-        padding: 16px 16px;
-        font-size: 14px;
+        padding: 16px 10px;
+        font-size: 12px;
         transition: background-color 300ms ease-in-out 40ms;
     }
     ul li:not(:last-child) {
