@@ -106,8 +106,13 @@ a {
         width: 6.875em;
         list-style-type: none;
         padding: 16px 16px;
-        border-right: none;
+        border-bottom: 1px solid #F6F6F7;
+        
         transition: background-color 300ms ease-in-out 40ms;
+    }
+    ul li:not(:last-child) {
+        border-right: 0px solid #F6F6F7;
+    
     }
     
     
