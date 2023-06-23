@@ -54,7 +54,7 @@ h1 {
 .nav {
     width: 50%;
     margin: 50px auto 0;
-    background-color: aqua;
+    
 }
 .nav-list {
     width: 100%;
@@ -63,14 +63,12 @@ h1 {
     justify-content: center;
     border: 1px solid #F6F6F7;
     border-radius: 5px;
-    background-color: bisque;
     padding: 0;
 }
 li {
     width: 687.5%;
     list-style-type: none;
     padding: 16px 16px;
-    background-color: blueviolet;
     transition: background-color 300ms ease-in-out 40ms;
 }
 
