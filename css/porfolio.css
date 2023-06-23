@@ -89,16 +89,15 @@ a {
 
 @media (max-width: 480px) {
     .nav {
-        width: 50%;
+        width: 100%;
         margin: 50px auto 0;
         
     }
     .nav-list {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
         margin: 0 auto;
-        border: 0;
+        border: 1px solid #F6F6F7;
         justify-content: center;
         
     }
@@ -106,12 +105,11 @@ a {
         width: 6.875em;
         list-style-type: none;
         padding: 16px 16px;
-        border-bottom: 1px solid #F6F6F7;
-        
+        font-size: 14px;
         transition: background-color 300ms ease-in-out 40ms;
     }
     ul li:not(:last-child) {
-        border-right: 0px solid #F6F6F7;
+        border-right: 1px solid #F6F6F7;
     
     }
     
