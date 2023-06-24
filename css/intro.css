@@ -62,7 +62,8 @@ a {
     text-decoration: none;
     color: #fff;
 }
-/* media queries for nav */
+
+/* media queries for nav n logo */
 
 @media (max-width: 480px) {
     /* CSS code for smaller screens */
@@ -74,7 +75,6 @@ a {
         padding-top: 24px;
         
     }
-    .logo-container
     .logo {
         width: auto;
         align-items: flex-start;
@@ -106,7 +106,7 @@ a {
         padding-top: 24px;
         
     }
-    .logo-container
+    
     .logo {
         width: auto;
         align-items: flex-start;
@@ -132,9 +132,33 @@ a {
   }
   @media (min-width: 769px) and (max-width: 1024px) {
     /* CSS code for medium-sized to larger screens */
-  }
-  
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        padding-top: 24px;
+        
+    }
 
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    
+  }
+/* media queries for nav end */
+
+
+  
 /* introduction n hobbies*/
 .introduction {
     background-color: rgba(14, 14, 14, 0.5);
@@ -154,9 +178,7 @@ a {
     width: 100%;
     height: 100%;
     display: block;
-    /* width: 375px;
-    height: 375px; */
-    /* margin: 80px auto; */
+
 }
 .profile-2 {
    display: none;
@@ -168,10 +190,9 @@ a {
     align-items: flex-start;
     width: 40%;
     margin: 80px auto;
+    
 }
-/* .Hobbies, .about-me {
-    width: 100%;
-} */
+
 .Hobbies, .about-me, .about-me > .about {
     width: 100%;
     margin: auto;
@@ -192,6 +213,169 @@ a {
     padding-top: 16px;
    
 }
+/* media queries for bio */
+@media (max-width: 480px) {
+    /* CSS code for smaller screens */
+    #profile-pic {
+        width: 100%;
+        height: 100%;
+        display: none;
+    
+    }
+    .profile-2 {
+        width: 100%;
+        height: 100%;
+       display: block;
+    }
+    .profile {
+        width: 50%;
+        margin: 50px auto 40px;
+    }
+    .introduction {
+        background-color: rgba(14, 14, 14, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        margin: 120px auto;
+
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+        margin: 20px auto;
+        
+    }
+
+    .description h1 {
+        font-size: 1.5rem;
+    }
+    .description .about, li{
+        font-size: 15px;
+        line-height: 22.5px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .Hobbies {
+        margin-top: 30px;
+        
+    
+    }
+
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* CSS code for medium-sized screens */
+    #profile-pic {
+        width: 100%;
+        height: 100%;
+        display: none;
+    
+    }
+    .profile-2 {
+        width: 100%;
+        height: 100%;
+       display: block;
+    }
+    .profile {
+        width: 50%;
+        margin: 50px auto 40px;
+    }
+    .introduction {
+        background-color: rgba(14, 14, 14, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        margin: 120px auto;
+
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+        margin: 20px auto;
+        
+    }
+
+    .description h1 {
+        font-size: 1.5rem;
+    }
+    .description .about, li{
+        font-size: 15px;
+        line-height: 22.5px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .Hobbies {
+        margin-top: 30px;
+        
+    
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS code for medium-sized to larger screens */
+    #profile-pic {
+        width: 100%;
+        height: 100%;
+        display: none;
+    
+    }
+    .profile-2 {
+        width: 100%;
+        height: 100%;
+       display: block;
+    }
+    .profile {
+        width: 50%;
+        margin: 50px auto 40px;
+    }
+    .introduction {
+        background-color: rgba(14, 14, 14, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        margin: 120px auto;
+
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+        margin: 20px auto;
+        
+    }
+
+    .description h1 {
+        font-size: 1.8rem;
+    }
+    .description .about, li{
+        font-size: 15px;
+        line-height: 22.5px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .Hobbies {
+        margin-top: 30px;
+        
+    
+    }
+  }
+
+  /* media queries for bio end */
 /* footer */
 .footer {
     width: 100%;
@@ -200,6 +384,8 @@ a {
     padding: 20px 0;
     background-color: rgba(14, 14, 14, 0.56);
 }
+
+
 
 .footer > p {
     letter-spacing: 1px;
