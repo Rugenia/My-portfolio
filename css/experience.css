@@ -88,6 +88,7 @@ a {
     }
     .li {
         background-color: rgba(14, 14, 14, 0.5);
+        text-align: justify;
     }
     ul .li {
         margin: 2px;
@@ -120,6 +121,7 @@ a {
     }
     .li {
         background-color: rgba(14, 14, 14, 0.5);
+        text-align: justify;
     }
     ul .li {
         margin: 2px;

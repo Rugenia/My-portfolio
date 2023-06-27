@@ -11,6 +11,23 @@ body {
     
 }
 
+/* media queiries for body */
+/* Styles for screens up to 480px */
+@media (width < 480px), (width > 768px), (max-width: 1024px)  {
+    /* CSS code for smaller, medium and larger screens */
+    body {
+        background-image: url("../images/first_bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+        
+    }
+  }
+  
+  
+  
+
 h1 {
     border-bottom: 2px solid #F6F6F7;
     padding-bottom: 10px;
@@ -63,6 +80,103 @@ a {
     color: #fff;
 }
 
+/* media queries for nav n logo */
+
+@media (max-width: 480px) {
+    /* CSS code for smaller screens */
+
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: flex-start;
+        padding-top: 24px;
+        
+    }
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    .li {
+        background-color: rgba(14, 14, 14, 0.5);
+        text-align: justify;
+    }
+    ul .li {
+        margin: 2px;
+        border-right: 1px solid #F6F6F7;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* CSS code for medium-sized screens */
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: flex-start;
+        padding-top: 24px;
+        
+    }
+    
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    .li {
+        background-color: rgba(14, 14, 14, 0.5);
+        text-align: justify;
+    }
+    ul .li {
+        margin: 2px;
+        border-right: 1px solid #F6F6F7;
+    }
+    
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS code for medium-sized to larger screens */
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        padding-top: 24px;
+        
+    }
+
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    
+  }
+/* media queries for nav end */
+
+
 /* projects*/
 .projects {
     background-color: rgba(14, 14, 14, 0.5);
@@ -82,15 +196,14 @@ a {
     height: 400px;
     padding: 0 30px;
     margin: 0 auto;
-    /* background-color: aqua; */
     overflow-x: scroll;
     overflow-y: hidden;
     
 }
 
 .clothing {
-    width: 420px;
-    height: 310px;
+    width: 50%;
+    height: auto;
     margin: 10px;
     background-color: rgba(158, 158, 158, 0.2);
     background-image: url("../images/clothing\ store.png");
@@ -106,8 +219,8 @@ a {
     
 }
  .virbank {
-    width: 420px;
-    height: 310px;
+    width: 50%;
+    height: auto;
     margin: 10px;
     background-color: rgba(158, 158, 158, 0.2);
     background-image: url("../images/bank.png");
@@ -124,8 +237,8 @@ a {
 }
 
  .solopro {
-    width: 420px;
-    height: 310px;
+    width: 50%;
+    height: auto;
     margin: 10px;
     background-color: rgba(158, 158, 158, 0.2);
     background-image: url("../images/solo.png");
@@ -153,7 +266,36 @@ a {
     opacity: 0;
 }
 
+/* Styles for screens up to 480px */
+@media (max-width: 480px) {
+    /* CSS code for smaller screens */
+    .clothing, .virbank, .solopro {
+        width: 100%;
+        height: 310px;
+    }
 
+    .clothing:active, .virbank:active, .solopro:active {
+        background-size: contain;
+        background-position: center center; 
+    }
+    .men, .bnk, .naija {
+    width: 250px;
+    height: 200px;
+    padding: 40px;
+    object-fit: contain;
+    transition: opacity 1s ease-in-out 0.02s;
+}
+  }
+  
+  /* Styles for screens between 481px and 768px */
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* CSS code for medium-sized screens */
+  }
+  
+  /* Styles for screens between 769px and 1024px */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS code for medium-sized to larger screens */
+  }
 
 /* scrimba nad behance */
 .visit-more {

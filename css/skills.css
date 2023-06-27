@@ -91,6 +91,7 @@ a {
     }
     .li {
         background-color: rgba(14, 14, 14, 0.5);
+        text-align: justify;
     }
     ul .li {
         margin: 2px;
@@ -123,6 +124,7 @@ a {
     }
     .li {
         background-color: rgba(14, 14, 14, 0.5);
+        text-align: justify;
     }
     ul .li {
         margin: 2px;
@@ -283,7 +285,7 @@ span {
         font-size: 0.85rem;
     }
     /* ------------------------ second container of skills --------------------------- */ 
-    .d-tools > li, .soft > li {
+    .d-tools > li, .soft > li, li {
         margin: 20px;
         font-size: 0.9rem;
         text-align: left;
