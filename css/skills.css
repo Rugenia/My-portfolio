@@ -280,7 +280,7 @@ span {
         margin-top: 40px;
         text-align: justify;
         text-justify: inter-word;
-        font-size: 0.77rem;
+        font-size: 0.85rem;
     }
     /* ------------------------ second container of skills --------------------------- */ 
     .d-tools > li, .soft > li {
@@ -293,7 +293,7 @@ span {
     
         width: 90%;
         margin: 30px auto 0;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
   }
