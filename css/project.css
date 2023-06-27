@@ -281,7 +281,7 @@ a {
     .men, .bnk, .naija {
     width: 250px;
     height: 200px;
-    padding: 40px 20px;
+    padding: 40px;
     object-fit: contain;
     transition: opacity 1s ease-in-out 0.02s;
 }
