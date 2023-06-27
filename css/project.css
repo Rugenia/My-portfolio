@@ -271,11 +271,11 @@ a {
     /* CSS code for smaller screens */
     .clothing, .virbank, .solopro {
         width: 100%;
-        height: 310px;
+        height: auto;
     }
 
     .clothing:active, .virbank:active, .solopro:active {
-        background-size: contain;
+        background-size: cover;
         background-position: center center; 
     }
     .men, .bnk, .naija {
