@@ -275,9 +275,10 @@ a {
     }
 
     .clothing:active, .virbank:active, .solopro:active {
-        background-size: cover;
+        background-size: contain;
         background-position: center center; 
     }
+    
     .men, .bnk, .naija {
     width: 250px;
     height: 200px;
