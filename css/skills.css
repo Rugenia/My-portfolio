@@ -10,6 +10,7 @@ body {
     margin: 0;
 }
 
+
 h1 {
     border-bottom: 2px solid #F6F6F7;
     padding-bottom: 10px;
@@ -62,6 +63,100 @@ a {
 }
 
 
+/* media queries for nav n logo */
+
+@media (max-width: 480px) {
+    /* CSS code for smaller screens */
+
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: flex-start;
+        padding-top: 24px;
+        
+    }
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    .li {
+        background-color: rgba(14, 14, 14, 0.5);
+    }
+    ul .li {
+        margin: 2px;
+        border-right: 1px solid #F6F6F7;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* CSS code for medium-sized screens */
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: flex-start;
+        padding-top: 24px;
+        
+    }
+    
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    .li {
+        background-color: rgba(14, 14, 14, 0.5);
+    }
+    ul .li {
+        margin: 2px;
+        border-right: 1px solid #F6F6F7;
+    }
+    
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS code for medium-sized to larger screens */
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        padding-top: 24px;
+        
+    }
+
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    
+  }
+/* media queries for nav end */
+
 /* professional skills*/
 .skills {
     background-color: rgba(14, 14, 14, 0.5);
@@ -72,6 +167,14 @@ a {
     margin: 120px auto;
     overflow: hidden;
     border-radius: 10px;
+    
+    
+}
+.description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     
 }
@@ -93,9 +196,8 @@ a {
 }
 
 .figma, .web {
-    width: 300px;
-    height: 300px;
-    /* border: 1px solid #F6F6F7; */
+    width: 35%;
+    height: 40%;
     border-radius: 8px ;
 }
 
@@ -124,7 +226,7 @@ a {
 
 .cv {
     
-    width: 600px;
+    width: 90%;
     margin: 30px auto 0;
 }
 span {
@@ -132,34 +234,133 @@ span {
     color: rgba(52, 117, 119, 1);
 }
 
-/* 
-.description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-    
-}
+/* media quieries start */
+/* ------------------------------- */
 
-.about-exp {
-    text-align: justify;
-    text-justify: inter-word;
-    margin-left: 70px;
-    margin-bottom: 20px;
-    
-}
+/* ------------------------ first container of figma nd html --------------------------- */ 
 
-.exp-img {
-    width: 50%;
-    height: auto;
-    position: relative;
-    right: 0;
-    bottom: 0;
-    background-image: url("../images/ninth_big_item.jpg");
-    background-size: cover;
-    filter: contrast(110%);
-   
-} */
+@media (max-width: 480px) {
+    /* CSS code for smaller screens */
+
+    h1 {
+        border-bottom: 2px solid #F6F6F7;
+        padding-bottom: 10px;
+        text-align: left;
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 40px 40px 20px;
+    }
+    .description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9rem;
+        
+    }
+
+    .prototyping, .web-design {
+        width: 100%;
+        height: auto;
+        margin: 40px auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .figma, .web {
+        width: 50%;
+        height: 60%;
+        border-radius: 8px ;
+    }
+    .skill-writeup {
+        width: 80%;
+        margin-top: 40px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 0.77rem;
+    }
+    /* ------------------------ second container of skills --------------------------- */ 
+    .d-tools > li, .soft > li {
+        margin: 20px;
+        font-size: 0.9rem;
+        text-align: left;
+    }
+    
+    .cv {
+    
+        width: 90%;
+        margin: 30px auto 0;
+        font-size: 0.9rem;
+    }
+
+  }
+  
+   /* ------------------------ medium screens --------------------------- */ 
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* CSS code for medium-sized screens */
+    h1 {
+        border-bottom: 2px solid #F6F6F7;
+        padding-bottom: 10px;
+        text-align: left;
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 40px 40px 20px;
+    }
+    .description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+        
+    }
+
+    .prototyping, .web-design {
+        width: 100%;
+        height: auto;
+        margin: 40px auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .figma, .web {
+        width: 50%;
+        height: 60%;
+        border-radius: 8px ;
+    }
+    .skill-writeup {
+        width: 80%;
+        margin-top: 40px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 0.9rem;
+    }
+    /* ------------------------ second container of skills --------------------------- */ 
+    .d-tools > li, .soft > li {
+        margin: 20px;
+        font-size: 1rem;
+        text-align: left;
+    }
+    
+    .cv {
+    
+        width: 90%;
+        margin: 30px auto 0;
+        font-size: 0.9rem;
+    }
+
+  }
+  
+  /* Styles for screens between 769px and 1024px */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS code for medium-sized to larger screens */
+  }
 
 
 /* footer */
