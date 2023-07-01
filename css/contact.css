@@ -9,6 +9,21 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
+/* media queiries for body */
+/* Styles for screens up to 480px */
+@media (width < 480px), (width > 768px), (max-width: 1024px)  {
+    /* CSS code for smaller, medium and larger screens */
+    body {
+        background-image: url("../images/first_bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+        
+    }
+  }
+  
+  
 
 h1 {
     border-bottom: 2px solid #F6F6F7;
@@ -58,6 +73,104 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+
+/* media queries for nav n logo */
+
+@media (max-width: 480px) {
+    /* CSS code for smaller screens */
+
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: flex-start;
+        padding-top: 24px;
+        
+    }
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    .li {
+        background-color: rgba(14, 14, 14, 0.5);
+        text-align: justify;
+    }
+    ul .li {
+        margin: 2px;
+        border-right: 1px solid #F6F6F7;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* CSS code for medium-sized screens */
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: flex-start;
+        padding-top: 24px;
+        
+    }
+    
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    .li {
+        background-color: rgba(14, 14, 14, 0.5);
+        text-align: justify;
+    }
+    ul .li {
+        margin: 2px;
+        border-right: 1px solid #F6F6F7;
+    }
+    
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS code for medium-sized to larger screens */
+    .nav {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        padding-top: 24px;
+        
+    }
+
+    .logo {
+        width: auto;
+        align-items: flex-start;
+        
+    }
+    .nav-list {
+        width: 50%;
+        display: flex;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    
+  }
+/* media queries for nav end */
+
 
 
 /* contact and socials*/
