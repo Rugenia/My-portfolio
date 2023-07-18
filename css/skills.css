@@ -235,14 +235,19 @@ a {
     margin: 20px;
 }
 
-.cv {
+.cv{
     
     width: 90%;
     margin: 30px auto 0;
 }
+.cv > a{
+    width: 80%;
+    margin: 0 auto;
+}
 span {
     font-weight: bolder;
     color: rgba(52, 117, 119, 1);
+
 }
 
 /* media quieries start */
