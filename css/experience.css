@@ -135,8 +135,9 @@ a {
     ul .li {
         margin: 2px;
         border-right: 1px solid #F6F6F7;
-    /* }
-    a {
+    }
+
+    /* a {
         display: block;
         text-decoration: none;
         color: #fff;
