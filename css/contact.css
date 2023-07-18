@@ -109,6 +109,14 @@ a {
         margin: 2px;
         border-right: 1px solid #F6F6F7;
     }
+    a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        width: 115px;
+        height: 25px;
+        
+    }
   }
   @media (min-width: 481px) and (max-width: 768px) {
     /* CSS code for medium-sized screens */

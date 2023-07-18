@@ -57,6 +57,7 @@ ul .li:not(:last-child) {
 a {
     text-decoration: none;
     color: #fff;
+    
 }
 
 
@@ -94,6 +95,14 @@ a {
         margin: 2px;
         border-right: 1px solid #F6F6F7;
     }
+    a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        width: 115px;
+        height: 25px;
+        
+    }
   }
   @media (min-width: 481px) and (max-width: 768px) {
     /* CSS code for medium-sized screens */
@@ -126,7 +135,15 @@ a {
     ul .li {
         margin: 2px;
         border-right: 1px solid #F6F6F7;
-    }
+    /* }
+    a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        width: 115px;
+        height: 25px;
+        
+    } */
     
   }
   @media (min-width: 769px) and (max-width: 1024px) {

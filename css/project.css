@@ -78,6 +78,7 @@ ul .li:not(:last-child) {
 a {
     text-decoration: none;
     color: #fff;
+    
 }
 
 /* media queries for nav n logo */
@@ -113,6 +114,14 @@ a {
     ul .li {
         margin: 2px;
         border-right: 1px solid #F6F6F7;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        width: 115px;
+        height: 25px;
+        
     }
   }
   @media (min-width: 481px) and (max-width: 768px) {
