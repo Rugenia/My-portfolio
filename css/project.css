@@ -1,4 +1,7 @@
 /* BODY */
+*, ::before, ::after{
+    box-sizing: border-box;
+}
 
 body {
     background-image: url("../images/first_bg.jpg");
@@ -199,80 +202,68 @@ a {
 }
 .myproject {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 30px;
+    
+    /* justify-content: space-between;
     align-items: center;
     width: 90%;
     height: 400px;
     padding: 0 30px;
     margin: 0 auto;
     overflow-x: scroll;
-    overflow-y: hidden;
-    
+    overflow-y: hidden; */ 
 }
+.mrpantry{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 100%;
 
-.clothing {
+}
+.pantry_img_container {
     width: 50%;
-    height: auto;
-    margin: 10px;
-    background-color: rgba(158, 158, 158, 0.2);
-    background-image: url("../images/clothing\ store.png");
-    background-size: 0px 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: all 4s ease-in-out 2s;
+    border-radius: 20px; 
 }
-
-.clothing:hover {
-    background-image: url("../images/clothing\ store.png");
-    background-size: cover;
+.pantry_img{
+    width: 100%;
+    border-radius: 10px;
+}
+.describe_Pantry{
+    width: 45%;
+    text-align:justify
     
 }
- .virbank {
-    width: 50%;
-    height: auto;
-    margin: 10px;
-    background-color: rgba(158, 158, 158, 0.2);
-    background-image: url("../images/bank.png");
-    background-size: 0px 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: all 4s ease-in-out 2s;
+.design_links{
+    display: flex;
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+.Pantry_name, .des_pantry {
+    letter-spacing: 0.2px; 
+    line-height: 24px;
 }
 
-.virbank:hover {
-    background-image: url("../images/bank.png");
-    background-size: cover;
+p.Rationale,
+p.Final_design{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    letter-spacing: 0.6px;
+    
     
 }
-
- .solopro {
-    width: 50%;
-    height: auto;
-    margin: 10px;
-    background-color: rgba(158, 158, 158, 0.2);
-    background-image: url("../images/solo.png");
-    background-size: 0px 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: all 4s ease-in-out 2s;
+p.Rationale a,
+p.Final_design a{
+    color: rgb(37, 105, 183);
+    letter-spacing: 2%;
 }
-
-
-.solopro:hover {
-    background-image: url("../images/solo.png");
-    background-size: cover;
-    
-}
-
-.men, .bnk, .naija {
-    width: 300px;
-    height: 200px;
-    object-fit: contain;
-    padding: 60px;
-    transition: opacity 1s ease-in-out 0.02s;
-}
-.men:hover, .bnk:hover, .naija:hover {
-    opacity: 0;
+.tags{
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.6px;
 }
 
 /* Styles for screens up to 480px */
@@ -323,9 +314,9 @@ span {
     
 }
 span > a {
-    color: rgba(52, 117, 119, 1);
+    color: rgb(37, 105, 183);
 }
-
+/* rgba(52, 117, 119, 1) */
 /* footer */
 .footer {
     width: 100%;
