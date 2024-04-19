@@ -214,6 +214,7 @@ a {
     overflow-x: scroll;
     overflow-y: hidden; */ 
 }
+/* Mr pantry styling */
 .mrpantry{
     display: flex;
     margin-bottom: 20px;
@@ -241,7 +242,7 @@ a {
     padding: 0px;
     justify-content: space-between;
 }
-.Pantry_name, .des_pantry {
+.Pantry_name, .des_pantry, .des_muzik {
     letter-spacing: 0.2px; 
     line-height: 24px;
 }
@@ -257,13 +258,28 @@ p.Final_design{
 }
 p.Rationale a,
 p.Final_design a{
-    color: rgb(37, 105, 183);
+    color: rgb(199, 112, 6);
     letter-spacing: 2%;
 }
 .tags{
     font-size: 14px;
     font-weight: 100;
     letter-spacing: 0.6px;
+}
+/* Muzik styling */
+.Muzik{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.describe_muzik{
+    width: 45%;
+    text-align:justify
+}
+.des_muzik{
+    font-weight: normal;
 }
 
 /* Styles for screens up to 480px */
@@ -278,8 +294,8 @@ p.Final_design a{
     p {
         font-size: 0.9rem;
         width: 90%;
-        text-align: center;
-        margin: 15px auto;
+        text-align: justify;
+        margin: 15px 0;
     }
     .clothing, .virbank, .solopro {
         width: 100%;
@@ -307,14 +323,16 @@ p.Final_design a{
     margin: 50px 0 20px;
     font-size: 14px;
     letter-spacing: 1px;
+    font-weight: normal;
 }
+
 span {
     font-weight: bold;
     font-size: 15px;
     
 }
 span > a {
-    color: rgb(37, 105, 183);
+    color: rgb(199, 112, 6);
 }
 /* rgba(52, 117, 119, 1) */
 /* footer */
