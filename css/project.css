@@ -297,7 +297,7 @@ p.Final_design a{
         text-align: justify;
         margin: 15px 0;
     }
-    .clothing, .virbank, .solopro {
+    .Muzik  *, .mrpantry  * {
         width: 100%;
         height: auto;
     }
@@ -313,6 +313,10 @@ p.Final_design a{
     padding: 40px;
     object-fit: contain;
     transition: opacity 1s ease-in-out 0.02s;
+}
+.Muzik, .mrpantry{
+    display: flex;
+    flex-direction: column;
 }
   }
   
@@ -334,6 +338,13 @@ span {
 span > a {
     color: rgb(199, 112, 6);
 }
+/* Visit More */
+@media (max-width: 480px), (max-width: 768px), (max-width: 1024px){
+    .visit-more{
+        padding: 0 30px;
+    }
+}
+    /* CSS code for smaller screens */
 /* rgba(52, 117, 119, 1) */
 /* footer */
 .footer {
