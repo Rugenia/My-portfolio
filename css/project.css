@@ -217,7 +217,8 @@ a {
 /* Mr pantry styling */
 .mrpantry{
     display: flex;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     justify-content: space-between;
     width: 100%;
 
@@ -269,7 +270,7 @@ p.Final_design a{
 /* Muzik styling */
 .Muzik{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     justify-content: space-between;
     width: 100%;
 
